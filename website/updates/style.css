@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;}
+section{
+    width: 100%;
+    height: 100vh;
+    background: url(images/hab1.png);
+    background-size: cover;}
+section .leftbox
+{   width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;}
+section .leftbox .content
+{   color: #fff;
+    background: rgb(28, 16, 56);;
+    padding: 40px;
+    transition: 0.5s; }
+    
+section .leftbox .content:hover
+{background: rgb(63, 59, 70); }
+section .leftbox .content h1
+{   margin:0;
+    padding: 0;
+    font-size:50px;
+    text-transform: uppercase;
+}
+section .leftbox .content p
+{   margin:10px 0 0;
+    padding: 0;
+}
+section .News
+{   position: relative;
+    height: 100%;
+    width: 50%;
+    background: rgba(0,0,0,.5);
+    float: right;
+    box-sizing: border-box;
+}
+section .News ul
+{   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .News ul li
+{   list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    width: 15px 0; /*c*/
+}
+section .News ul li .time
+{   position: relative;
+    padding: 20px;
+    background: #959096;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;}
+
+section .News ul li:hover .time
+{ background:rgb(28, 16, 56); ;}
+
+section .News ul li .time h2
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+section .News ul li .time h2 span
+{ font-size: 30px;}
+
+section .News ul li .Details
+
+{   padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;   }
+section .News ul li .Details h3
+
+{
+position: relative;
+margin: 0;
+padding: 0;
+font-size: 22px;
+}
+
+section .News ul li .Details p
+{
+position: relative;
+margin: 10px 0 0;
+padding: 0;
+font-size: 16px;
+}
+
+section .News ul li .Details a
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px  15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+section .News ul li .Details a:hover
+{
+    background:rgb(28, 16, 56);  ;
+    color: #fff;
+    border-color: #96659c;
+}
+section .News ul li  .time2
+{
+    position: relative;
+    padding: 20px;
+    background: #959096;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+
+section .News ul li:hover  .time2
+{
+    background:rgb(28, 16, 56); ;
+}
+
+section .News ul li  .time2 h7
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+section .News ul li  .time2 h7 span
+{
+    font-size: 30px;
+}
+
+section .News ul li .Details2
+{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+    
+}
+
+section .News ul li .Details2 h5
+{
+position: relative;
+margin: 0;
+padding: 0;
+font-size: 22px;
+
+}
+
+section .News ul li .Details2 p2
+{
+position: relative;
+margin: 10px 0 0;
+padding: 0;
+font-size: 16px;
+}
+
+section .News ul li .Details2 a2
+{
+
+    display: block;
+    text-decoration: none;
+    padding: 10px  15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+section .News ul li .Details2 a2:hover
+{
+    background:rgb(28, 16, 56);  ;
+    color: #fff;
+    border-color: #96659c;
+}
+
+
+
+
+
+
+
